@@ -1,0 +1,13 @@
+{
+    "rewrites": [
+      {
+        "source": "/chatbot-embed/:userId/:botId",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/:path*",
+        "destination": "/index.html"
+      }
+    ]
+  }
+  
